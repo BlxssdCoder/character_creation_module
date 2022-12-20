@@ -1,5 +1,19 @@
 from random import randint
 
+class Character:
+    pass
+
+
+class Warrior(Character):
+    pass
+
+
+class Mage(Character):
+    pass
+
+
+class Healer(Character):
+    pass
 
 def attack(char_name, char_class):
     if char_class == 'warrior':
